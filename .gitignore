@@ -1,6 +1,7 @@
 node_modules/
 bower_components/
 *.log
+www/bundle.js
 
 build/
 dist/
