@@ -4,6 +4,7 @@
   "description": "EPIC PROJECTS IN REACT",
   "main": "index.js",
   "scripts": {
+    "compile":"webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
