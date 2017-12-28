@@ -1,4 +1,6 @@
 import React from 'react';
+import ProjectsMenu from './ProjectsMenu';
+import TasksContainer from './TasksContainer';
 
 /**
  * A counter button: tap the button to increase the count.
@@ -12,7 +14,11 @@ class App extends React.Component {
   render() {
     return (
       <div id="container">
-       <h1>Epic Projects by Rémy KALOUSTIAN</h1>
+       <h4>Epic Projects by Rémy KALOUSTIAN</h4>
+       <div id="main-container">
+        <ProjectsMenu />
+        <TasksContainer/>
+       </div>
       </div>
     );
   }
