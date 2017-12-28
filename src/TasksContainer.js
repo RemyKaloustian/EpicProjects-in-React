@@ -11,7 +11,7 @@ class TasksContainer extends React.Component {
 
   render() {
     return (
-      <h2>Tasks</h2>
+        <div className="column">Tasks</div>
     );
   }
 }
