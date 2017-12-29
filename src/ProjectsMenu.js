@@ -15,7 +15,7 @@ class ProjectsMenu extends React.Component
   {
     return (
     <div className="column">
-      <p id="new-project" className="trigger-custom" onClick={()=>this.showNewProjectModal()}>New project</p>
+      <a id="new-project" className="trigger" onClick={()=>this.showNewProjectModal()}>New project</a>
     </div>  
   );
   }//render()
@@ -23,6 +23,7 @@ class ProjectsMenu extends React.Component
   showNewProjectModal()
   {
     console.log("New project");
+   
   }
 }
 export default ProjectsMenu;
