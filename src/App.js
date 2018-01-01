@@ -20,7 +20,6 @@ class App extends React.Component {
         <ProjectsMenu />
         <TasksContainer/>        
         </div>  
-        <NewProjectModal/>   
       </div>
     );
   }
